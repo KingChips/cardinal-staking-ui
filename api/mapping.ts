@@ -908,7 +908,7 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
       backgroundSecondary: '#f4f5f7',
     },
   },
-   {
+    {
     name: 'KingChipsRoyale',
     displayName: 'KingChipsRoyale',
     nameInHeader: true,
