@@ -878,4 +878,63 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
       backgroundSecondary: '#f4f5f7',
     },
   },
+  {
+    name: 'trust-in-pat',
+    displayName: 'Trust in Pat',
+    nameInHeader: true,
+    stakePoolAddress: new PublicKey(
+      '84zubayRdBg8s47QUDLfmHUZekmmBktKptwfagGNHjjL'
+    ),
+    websiteUrl: 'https://trustinpat.com/',
+    receiptType: ReceiptType.Receipt,
+    tokenStandard: TokenStandard.NonFungible,
+    imageUrl: '/logos/trust-in-pat.png',
+    maxStaked: 4096,
+    links: [
+      {
+        text: 'Twitter',
+        value: 'https://twitter.com/TrustInPat',
+      },
+      {
+        text: 'Discord',
+        value: 'https://t.co/drNhCgyOwz',
+      },
+    ],
+    colors: {
+      primary: '#ffffff',
+      secondary: '#BBBBBB',
+      accent: '#ffffff',
+      fontColor: '#000',
+      backgroundSecondary: '#f4f5f7',
+    },
+  },
+   {
+    name: 'KingChipsRoyale',
+    displayName: 'KingChipsRoyale',
+    nameInHeader: true,
+    stakePoolAddress: new PublicKey(
+      'GqZsDULGkAw3KLTsUdYcVWtRNWDXCKXH2XomrrBhKCcU'
+    ),
+    websiteUrl: 'https://www.kingchips.xyz/',
+    receiptType: ReceiptType.Receipt,
+    tokenStandard: TokenStandard.NonFungible,
+    imageUrl: 'https://i.ibb.co/wzhXTTZ/400x400logo.png',
+    maxStaked: 1109,
+    links: [
+      {
+        text: 'Twitter',
+        value: 'https://twitter.com/KingChipsRoyale',
+      },
+      {
+        text: 'Discord',
+        value: 'discord.gg/2ZZhyuebUg',
+      },
+    ],
+    colors: {
+      primary: '#000000',
+      secondary: '#4da1de',
+      accent: '#1fcfb11c',
+      fontColor: '#FFFFFF',
+    },
+  }
 ]
